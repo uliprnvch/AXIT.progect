@@ -512,7 +512,7 @@ select {
     margin: auto;
     border: 1px solid #EC7979;
 }
-.awesome__section-line{   
+.awesome-line{   
     font-size: 18px;
     line-height: 21px;
     align-items: center;
@@ -556,4 +556,8 @@ select {
     margin-right: 30px;
     margin-top: 8px;
     margin-bottom: 58px;
+    font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
 }
