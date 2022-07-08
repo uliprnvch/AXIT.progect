@@ -113,18 +113,20 @@ select {
 
 .axit{
   width: 100%;
-  background: #000000;
-  /* background: url(C:\Users\1\Desktop\прога\TMS\дз\2.git\AXIT.progect\img\image.png); */
-  /* height: 1064px; */
-  padding-top: 231px;
-  /* background: url(img/image.png);
+  /* padding-top: 231px; */
+  background: url(../img/image.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; */
+  background-size: cover;
+}
+.axit__back{
+  width: 100%;
+  padding-top: 231px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .axit__content{
   width: 1510px;
@@ -488,7 +490,7 @@ select {
     text-align: center;
     margin: 0 auto;
 }
-.awesome__section-name{
+.awesome-name{
     font-size: 36px;
     line-height: 42px;
     align-items: center;
@@ -498,6 +500,7 @@ select {
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    font-weight: 100;
     /* margin-right: 169px;
     margin-left: 171px; */
 }
