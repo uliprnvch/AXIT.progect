@@ -552,6 +552,7 @@ select {
   background: #F5F5F5;
   margin: 0 auto;
 }
+
 .price__content-title{
   font-family: 'Raleway';
   font-style: normal;
@@ -710,4 +711,56 @@ select {
   justify-content: center;
   text-transform: capitalize;
   color: #86878B;
+}
+
+.customers__block{
+ width: 100%;
+ margin: 0 auto;
+ background: #FFFFFF;
+}
+.customers__content{
+  width: 1170px;
+  margin-right: 170px;
+  margin-left: 170px;
+  background: #FFFFFF;
+}
+.customers__content-title{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  justify-content: center;
+  color: #000000;
+  padding-top: 50px;
+  height: 150px;
+}
+/* .customers__content-separator{
+
+} */
+.customers__content-separator-img{
+  width: 170px;
+  height: 0px;
+  border: 1px solid #EC7979;
+  margin: auto;
+  text-align: center;
+  display: flex;
+}
+.customers__content-text{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #86878B;
+  margin-top: 40px;
+  margin-bottom: 83px;
 }
