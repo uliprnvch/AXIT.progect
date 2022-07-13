@@ -810,7 +810,7 @@ select {
   display: inline-block;
   position: relative;
   left: 71px;
-  bottom: 96px;
+  bottom: 0px;
   /* width: 0; */
   /* height: 0; */
   border-left: 15px solid transparent;
@@ -820,11 +820,11 @@ select {
 
 .customers__reviews-img{
 margin-top: 46px;
-/* position: absolute;
-width: 70px;
-height: 70px;
-left: 170px;
-top: 4066px; */
+display: inline-block;
+height: 70px;width: 70px;
+}
+.customer__name-post{
+  display: flex;
 }
 .customers__reviews-name{
   font-family: 'Open Sans';
@@ -836,6 +836,11 @@ top: 4066px; */
   align-items: center;
   text-transform: capitalize;
   color: #000000;
+  justify-content: center;
+  align-items: center;
+  height: 54px;
+  margin-top: 54px;
+  margin-left: 30px;
 }
 .customers__reviews-post{
   font-family: 'Raleway';
@@ -846,5 +851,8 @@ top: 4066px; */
   display: flex;
   align-items: center;
   color: #000000;
+  margin-top: 15px;
+  margin-bottom: 64px;
+  margin-left: 100px;
   
 }
