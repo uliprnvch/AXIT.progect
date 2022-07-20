@@ -52,7 +52,7 @@
 .contact__form {
     position: relative;
 }
-input {
+input, textarea {
     outline:none;
 }
 .contact__form-input-name {
@@ -87,11 +87,12 @@ input {
     display: inline-block;
     margin-right: 30px;
 }
-.contact__form-input-message {
+.contact__form-textarea-message {
     border: none;
     border-bottom: 1px solid #BDBDBD;
+    color: #BDBDBD;
     width: 570px;
-    padding-bottom: 192px;
+    padding-bottom: 172px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
