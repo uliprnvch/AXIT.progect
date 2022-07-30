@@ -26,10 +26,7 @@
     margin-right: 170px;
     
   }
-  /* .price__content-separator{
-    margin-left: 170px;
-    margin-right: 170px;
-  } */
+
   .price__content-separator-img{
     width: 170px;
     height: 0px;
@@ -167,3 +164,78 @@
     color: #86878B;
   }
   
+  @media screen and (max-width:1075px){
+    .pricing-option__block{
+      width: 100%;
+      background: #F5F5F5;
+    }
+    .price__content{
+      max-width: 1024px;
+    }
+    .price__content-title{
+      font-size: 24px;
+      line-height: 28px;
+      width:992px;
+      height: 120px;
+      margin-top: 50px;
+      margin-left: 17px;
+      margin-right: 17px;
+      
+    }
+
+    .price__content-separator-img{
+      width: 143px;
+    }
+    .price__content-text{
+      font-size: 14px;
+      line-height: 16px;
+      width:992px;
+      height: 16px;
+      margin-top: 32px;
+      margin-left: 21px;
+      margin-right: 21px;
+    }
+
+    .pricing-option__basic{
+     width: 317px;
+     margin-top: 50px;
+     margin-bottom: 50px;
+     margin-left: 14px;
+     margin-right: 20px;
+    }
+    .pricing-option__optima{
+      width: 318px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    .pricing-option__pro{
+      width: 317px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      margin-left: 20px;
+      margin-right: 14px;
+    }
+    .pricing-option__basic:hover {
+      margin-top: 32px;
+      margin-bottom: 67px;
+      box-shadow: 0 0 10px rgba(117, 114, 114, 0.5);
+      cursor: pointer;
+      transition: all .3s;
+    }
+    .pricing-option__pro:hover{
+      margin-top: 32px;
+      margin-bottom: 67px;
+      box-shadow: 0 0 10px rgba(117, 114, 114, 0.5);
+      cursor: pointer;
+      transition: all .3s;
+    }
+    .pricing-option__optima:hover{
+      margin-top: 32px;
+      margin-bottom: 67px;
+      box-shadow: 0 0 10px rgba(117, 114, 114, 0.5);
+      cursor: pointer;
+      transition: all .3s;
+    }
+
+     
+}

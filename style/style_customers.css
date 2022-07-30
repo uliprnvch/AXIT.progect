@@ -1,8 +1,5 @@
 .customers__block{
     width: 100%;
-    /* margin-right: 170px;
-    margin-left: 170px; */
-    
    }
    .customers__content{
      width: 1170px;
@@ -118,7 +115,6 @@
      align-items: center;
      text-transform: capitalize;
      color: #000000;
-     justify-content: center;
      align-items: center;
      height: 54px;
      margin-top: 54px;
@@ -138,3 +134,95 @@
      margin-left: 100px;
      
    }
+   @media screen and (max-width:1075px){
+    .customers__content{
+      max-width: 992px;
+      margin: 0 auto;
+    }
+    .customers__content-title{
+      font-size: 24px;
+      line-height: 28px;
+      padding-top: 50px;
+      height: 120px;
+    }
+    .customers__content-separator-img{
+      width: 142px;
+    }
+    .customers__content-text{
+      font-size: 14px;
+      line-height: 16px;
+      color: #86878B;
+      margin-top: 32px;
+      margin-bottom: 32px;
+    }
+    .customers__block-reviews{
+      display: inline-block;
+      display: flex;
+    }
+    .customers__reviews-Davis{
+      width: 317px;
+      margin-right: 20px;
+    }
+    .customers__reviews-Jaydon{
+      width: 317px;
+      margin-right: 20px;
+    }
+    .customers__reviews-Cooper{
+      width: 317px;
+    }
+    .customers__reviews-text{
+      width: 317px;
+      height: 80px;
+      font-size: 14px;
+      line-height: 16px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      padding-bottom: 50px;
+      padding-top: 50px;
+    }
+    .element {
+      display: inline-block;
+      position: relative;
+      left: 71px;
+      bottom: 0px;
+      /* width: 0; */
+      /* height: 0; */
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-top: 20px solid #E2E2E2;
+    }
+    
+    .customers__reviews-img{
+    margin-top: 46px;
+    display: inline-block;
+    height: 63px;
+    width: 63px;
+    }
+    .customer__name-post{
+      display: flex;
+    }
+    .customers__reviews-name{
+      font-size: 18px;
+      line-height: 25px;
+      height: 36px;
+      width: 230px;
+      margin-top: 66px;
+      margin-left: 30px;
+    }
+    .customers__reviews-post{
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21px;
+      display: flex;
+      align-items: center;
+      color: #000000;
+      margin-top: 15px;
+      margin-bottom: 64px;
+      margin-left: 100px;
+      
+    }
+}

@@ -103,4 +103,49 @@
     vertical-align: bottom;
     width: 470px;
    }
-  
+
+   @media screen and (max-width:1075px){
+    .tabs{
+      max-width: 992px;
+      margin: 0 auto;
+    }
+    .tabs__content-tab{
+      margin-top: 60px;
+    }
+    .tab{
+      padding: 10px 67px;
+    }
+    .tab__border-first{
+      padding: 10px 67px;
+    }
+    .tab__border-second{
+      padding: 10px 169px 10px 67px;
+    }
+    .tabs__content-in{
+      height: 386px;
+    }
+    .tabs__content-title-text{
+      font-size: 24px;
+      line-height: 33px;
+      height: 89px;
+      width: 482px;
+      margin-bottom: 38px;
+      margin-right: 26px;
+    }
+    .tabs__content-text-lorem{
+      font-size: 14px;
+      line-height: 16px;
+      width: 482px;
+      margin-left: 100px;
+      margin-bottom: 38px;
+    }
+    .tabs__button{
+      margin-bottom: 50px;
+      height: 58px;
+      width: 231px;
+      }
+      .tabs__content-img{
+        width: 370px;
+        height: 377px;
+       }
+  }

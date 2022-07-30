@@ -133,3 +133,51 @@ input, textarea {
 .contact__form-button:hover{
     background: #AB4949;
 }
+
+@media screen and (max-width:1075px){
+    .contact__content {
+        width: 992px;
+        margin: 0 auto;
+    } 
+    .contact__content-title {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        height: 120px;
+        margin: 50px 16px 0 16px;
+        justify-content: center;
+    }
+    /* .contact__content-separator {
+    } */
+    .contact__content-separator-img {
+        width: 144px;
+    }
+    .contact__content-text {
+        width: 992px;
+        height: 16px;
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 72px;
+    }
+    .contact__form-input-name {
+        width: 486px;
+        padding-bottom: 16px;
+        margin-right: 20px;
+    }
+    .contact__form-input {
+        padding-top: 50px;
+        padding-bottom: 16px;
+        width: 486px;
+        margin-right: 20px;
+    }
+    .contact__form-textarea-message {
+        width: 486px;
+        padding-bottom: 172px;
+        top: -4px;
+        left: 510px;
+    }
+    
+    .contact__form-button {
+        width: 318px;
+    }
+}
