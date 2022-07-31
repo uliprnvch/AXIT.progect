@@ -20,9 +20,6 @@
      padding-top: 50px;
      height: 150px;
    }
-   /* .customers__content-separator{
-   
-   } */
    .customers__content-separator-img{
      width: 170px;
      height: 0px;
@@ -90,8 +87,6 @@
      position: relative;
      left: 71px;
      bottom: 0px;
-     /* width: 0; */
-     /* height: 0; */
      border-left: 15px solid transparent;
      border-right: 15px solid transparent;
      border-top: 20px solid #E2E2E2;
@@ -100,7 +95,8 @@
    .customers__reviews-img{
    margin-top: 46px;
    display: inline-block;
-   height: 70px;width: 70px;
+   height: 70px;
+   width: 70px;
    }
    .customer__name-post{
      display: flex;
@@ -132,7 +128,9 @@
      margin-top: 15px;
      margin-bottom: 64px;
      margin-left: 100px;
-     
+   }
+   .ellipse-img{
+    display: none;
    }
    @media screen and (max-width:1075px){
     .customers__content{
@@ -187,8 +185,6 @@
       position: relative;
       left: 71px;
       bottom: 0px;
-      /* width: 0; */
-      /* height: 0; */
       border-left: 15px solid transparent;
       border-right: 15px solid transparent;
       border-top: 20px solid #E2E2E2;
@@ -223,6 +219,71 @@
       margin-top: 15px;
       margin-bottom: 64px;
       margin-left: 100px;
-      
     }
+}
+@media screen and (max-width:1045px){
+  .customers__content{
+    width: 320px;
+    margin: 0 auto;
+  }
+  .customers__content-title{
+    font-size: 24px;
+    line-height: 28px;
+    height: 120px;
+  }
+  .customers__content-separator-img{
+    width: 134px;
+  }
+  .customers__content-text{
+    font-size: 14px;
+    line-height: 16px;
+    margin: 24px 16px;
+  }
+  .customers__block-reviews{
+    display: inline-block;
+  }
+  .customers__reviews-Jaydon{
+    width: 320px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .customers__reviews-Cooper{
+    display: none;
+  }
+  .customers__reviews-Davis{
+    display: none;
+  }
+  .customers__reviews-text{
+    width: 288px;
+    font-size: 14px;
+    padding: 50px 0;
+  }
+  .customers__reviews-img{
+    margin-top: 42px;
+    display: inline-block;
+    height: 57px;
+    width: 57px;
+    }
+    .customers__reviews-name{
+      font-size: 14px;
+      line-height: 19px;
+      margin-top: 47px;
+
+    }
+    .customers__reviews-post{
+      font-size: 13px;
+      line-height: 15px;
+      margin-top: -10px;
+      margin-bottom: 32px;
+    }
+    .Ellipse{
+      width: 320px;
+      margin: 0 auto;
+    }
+    .ellipse-img:first-child{
+      margin: 32px 50px 32px 95px;
+     }
+     .ellipse-img:last-child{
+      margin: 32px 95px 32px 50px;
+     }
 }

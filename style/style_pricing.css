@@ -62,12 +62,6 @@
    margin-right: 30px;
   }
   .pricing-option__optima{
-    /* width: 370px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 60px;
-    margin-bottom: 70px;
-    box-shadow: 0 0 10px rgba(117, 114, 114, 0.5); */
     width: 370px;
     margin-top: 80px;
     margin-bottom: 50px;
@@ -195,7 +189,6 @@
       margin-left: 21px;
       margin-right: 21px;
     }
-
     .pricing-option__basic{
      width: 317px;
      margin-top: 50px;
@@ -204,7 +197,7 @@
      margin-right: 20px;
     }
     .pricing-option__optima{
-      width: 318px;
+      width: 317px;
       margin-top: 50px;
       margin-bottom: 50px;
     }
@@ -218,24 +211,73 @@
     .pricing-option__basic:hover {
       margin-top: 32px;
       margin-bottom: 67px;
-      box-shadow: 0 0 10px rgba(117, 114, 114, 0.5);
-      cursor: pointer;
-      transition: all .3s;
     }
     .pricing-option__pro:hover{
       margin-top: 32px;
       margin-bottom: 67px;
-      box-shadow: 0 0 10px rgba(117, 114, 114, 0.5);
-      cursor: pointer;
-      transition: all .3s;
     }
     .pricing-option__optima:hover{
       margin-top: 32px;
       margin-bottom: 67px;
-      box-shadow: 0 0 10px rgba(117, 114, 114, 0.5);
-      cursor: pointer;
-      transition: all .3s;
     }
+}
+@media screen and (max-width:1045px){
+  .price__content{
+    width: 320px;
+  }
+  .price__content-title{
+    font-size: 24px;
+    line-height: 28px;
+    width: 288px;
+    height: 120px;
+    margin: 0 16px;
+    
+  }
 
-     
+  .price__content-separator-img{
+    width: 134px;
+  }
+  .price__content-text{
+    font-size: 14px;
+    line-height: 16px;
+    width:288px;
+    height: 32px;
+    margin: 24px 16px;
+  }
+  .pricing-option__block{
+    display: inline-block;
+  }
+  .pricing-option__basic{
+   width: 288px;
+   margin: 27px 16px;
+  }
+  .pricing-option__optima{
+    width: 288px;
+    margin: 27px 16px;
+  }
+  .pricing-option__pro{
+    width: 288px;
+    margin: 27px 16px;
+  }
+  .pricing-option__basic:hover {
+    margin-top: 32px;
+    margin-bottom: 67px;
+    box-shadow: 0 0 10px rgba(117, 114, 114, 0.5);
+    cursor: pointer;
+    transition: all .3s;
+  }
+  .pricing-option__pro:hover{
+    margin-top: 32px;
+    margin-bottom: 67px;
+    box-shadow: 0 0 10px rgba(117, 114, 114, 0.5);
+    cursor: pointer;
+    transition: all .3s;
+  }
+  .pricing-option__optima:hover{
+    margin-top: 32px;
+    margin-bottom: 67px;
+    box-shadow: 0 0 10px rgba(117, 114, 114, 0.5);
+    cursor: pointer;
+    transition: all .3s;
+  }
 }

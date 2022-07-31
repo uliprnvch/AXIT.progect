@@ -28,3 +28,23 @@
     margin-top: 32px;
     padding-bottom: 27px
 }
+@media screen and (max-width:1025px) {
+
+    .footer__social-content-img {
+        width: 320px;
+    }
+    .footer__social-img {
+        cursor: pointer;
+        margin: 37px auto 0;
+        height: 20px;width: 20px;
+    }
+    .footer__social-img:first-child{
+        height: 20px;width: 11px;
+    }
+    .footer-text {
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 44px;
+        padding-bottom: 45px
+    }
+}

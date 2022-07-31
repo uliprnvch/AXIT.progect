@@ -1,6 +1,5 @@
 .stylish__block{
     width: 100%;
-    /* padding-top: 231px; */
     background: url(../img/image-bg.png);
     background-repeat: no-repeat;
     background-position: center center;
@@ -13,12 +12,9 @@
   
   .stylish__back{
     width: 100%;
-    /* padding-top: 231px; */
     background-color: rgba(0, 0, 0, 0.5);
   }
-  /* .stylish__content{
-  
-  } */
+
   .stylish__content-title{
     font-family: 'Raleway';
     font-style: normal;
@@ -83,4 +79,39 @@
   .stylish__content-button:hover{
     color: #EC7979;
     border: 2px solid #EC7979;
+  }
+  @media screen and (max-width:1045px){
+    .stylish__content{
+      width: 320px;
+      margin: 0 auto;
+    }
+    .stylish__content-title{
+      font-size: 24px;
+      line-height: 28px;
+      height: 120px;
+      width: 288px;
+      padding: 0 16px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+    .stylish__separator{
+      width: 134px;
+    
+    }
+    .stylish__content-text{
+      font-size: 14px;
+      line-height: 16px;
+      width: 288px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      margin: 16px 16px 66px 16px
+    }
+    .stylish__content-button{ 
+      margin-bottom: 58px;
+      height: 50px;
+      width: 288px;
+    }
+
   }

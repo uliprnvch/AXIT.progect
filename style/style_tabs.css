@@ -149,3 +149,60 @@
         height: 377px;
        }
   }
+  @media screen and (max-width:1045px){
+    .tabs{
+      max-width: 320px;
+      margin: 0 auto;
+    }
+    .tabs__content{
+      width: 288px;
+      margin-left: 16px;
+      margin-right: 16px;
+    }
+    .tabs__content-tab{
+      margin-top: 51px;
+    }
+    .tab{
+      padding: 10px 32px;
+      
+    }
+    .tab__border-first{
+      padding: 10px 32px;
+    }
+    .tab__border-second{
+      padding: 10px 42px 10px 32px;
+    }
+    .tabs__content-in{
+      height: 431px;
+      border-left: 1px solid #C6CBCD;
+       border-right: 1px solid #C6CBCD;
+    }
+    .tabs__content-title-text{
+      font-size: 18px;
+      line-height: 25px;
+      height: 112px;
+      width: 242px;
+      margin: 20px 22px 29px 22px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .tabs__content-text-lorem{
+      font-size: 13px;
+      line-height: 15px;
+      width: 242px;
+      margin: 0 22px 29px 22px;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+    }
+    .tabs__button{
+      margin: 0 22px;
+      height: 50px;
+      width: 242px;
+      }
+      .tabs__content-img{
+        display: none;
+       }
+  }

@@ -1,6 +1,5 @@
 .axit{
     width: 100%;
-    /* padding-top: 231px; */
     background: url(../img/image.png);
     background-repeat: no-repeat;
     background-position: center center;
@@ -338,3 +337,124 @@
       margin-right: 40px;
     }
   }
+  @media screen and (max-width:1045px){
+    .axit__back{
+      padding-top: 84px;
+      padding-bottom: 50px;
+    }
+    .axit__content{
+      width: 320px;
+    }
+    .axit__block-text{
+      margin-left: 16px;
+      margin-right: 16px;
+      display: inline-block;
+      width: 288px;
+  }
+  .axit__img-logo{
+    display: none;
+  }
+  .axit__text-title{
+    font-size: 36px;
+    line-height: 42px;
+    width: 288px;
+    margin-bottom: 44px;
+    text-align: center;
+    
+  }
+  .axit__img-separator{
+    width: 134px;
+    margin: 0 auto;
+  }
+  .axit__text{
+    font-size: 14px;
+    line-height: 16px;
+    width: 288px;
+    text-align: center;
+    margin-top: 42px;
+  }
+  .axit__button{
+    height: 50px;
+    width: 288px;
+    margin-bottom: 56px;
+  }
+  .axit__form-block{
+    width: 288px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .form-title{
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0;
+    width: 288px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+  }
+  .form-title-pink{
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .axit__form{
+    height: 286px;
+  }
+  .axit__form-input{
+    width: 240px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  .axit__form-input-name{
+    width: 240px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  .axit__form-button{
+    width: 288px;
+    margin-top: 51px;
+    margin-bottom: 50px;
+  }
+
+  .axit__social-content{
+    width: 320px;
+    margin: 0 auto;
+  }
+  .axit__social-content-text{
+    width: 287px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .axit__social-text-title{
+    font-size: 18px;
+    line-height: 25px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 13px;
+    width: 287px;
+  }
+  .axit__social-text{
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 13px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 271px;
+  }
+  /* .axit__social-content-img{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+  } */
+  .axit__social-img{
+    margin: 0 0 46px 23px;
+    height: 20px;width: 20px;
+  }
+  .axit__social-img-facebook{
+    margin: 0 0 46px 28px;
+    height: 21px;
+    width: 11px;
+
+  }
+}
