@@ -79,7 +79,7 @@
   color: #000000;
 }
 
-@media screen and (max-width:1075px){
+@media screen and (max-width:1530px){
     .awesome-content{
         width: 992px;
     }
