@@ -42,6 +42,9 @@
   .header__img-logo{
     margin-right: 235px;
   }
+  .header__text{
+    margin-right: auto;
+  }
 }
 
 @media screen and (max-width:1045px){
@@ -54,6 +57,11 @@
   }
 }
 @media screen and (max-width:830px){
+  .header__text{
+    margin: 0;
+    height: 0;
+    width: 0;
+  }
   .header__text-link{
     display: none;
   }
