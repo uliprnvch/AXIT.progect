@@ -134,7 +134,7 @@ input, textarea {
     background: #AB4949;
 }
 
-@media screen and (max-width:1075px){
+@media screen and (max-width:1530px){
     .contact__content {
         width: 992px;
         margin: 0 auto;
