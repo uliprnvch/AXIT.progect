@@ -52,14 +52,23 @@
     margin-left: 20px;
     margin-right: 111px;
   }
+}
+@media screen and (max-width:830px){
   .header__text-link{
     display: none;
   }
+  .header__img-logo{
+    margin-left: 10px;
+    margin-right: 0;
+  }
+  .block__menu-img{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+  }
   .menu-img{
     display: inline-block;
-    visibility: visible;
-    margin: 19px 35px 19px 0;
-    width: 100%;
-    height: 100%;
+    margin-left: auto;
   }
 }
+
