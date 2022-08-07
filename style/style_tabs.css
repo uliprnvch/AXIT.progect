@@ -149,6 +149,51 @@
       height: 377px;
      }
 }
+@media screen and (max-width:1530px){
+  .tabs{
+    max-width: 992px;
+    margin: 0 auto;
+  }
+  .tabs__content-tab{
+    margin-top: 60px;
+  }
+  .tab{
+    padding: 10px 67px;
+  }
+  .tab__border-first{
+    padding: 10px 67px;
+  }
+  .tab__border-second{
+    padding: 10px 169px 10px 67px;
+  }
+  .tabs__content-in{
+    height: 386px;
+  }
+  .tabs__content-title-text{
+    font-size: 24px;
+    line-height: 33px;
+    height: 89px;
+    width: 482px;
+    margin-bottom: 38px;
+    margin-right: 26px;
+  }
+  .tabs__content-text-lorem{
+    font-size: 14px;
+    line-height: 16px;
+    width: 482px;
+    margin-left: 100px;
+    margin-bottom: 38px;
+  }
+  .tabs__button{
+    margin-bottom: 50px;
+    height: 58px;
+    width: 231px;
+    }
+    .tabs__content-img{
+      width: 370px;
+      height: 377px;
+     }
+}
 @media screen and (max-width:1045px){
   .tabs{
     max-width: 320px;
@@ -187,73 +232,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    text-transform: capitalize;
-    color: #FFFFFF;
-    background: #EC7979;
-    border: none;
-    margin-left: 100px;
-    margin-bottom: 54px;
-    height: 58px;
-    width: 270px;
-    cursor: pointer;
-    transition: all .3s;  
-    }
-  .tabs__button:hover{
-    background: #AB4949;
-    }
-  .tabs__content-img-block{
-    display: inline;
-    }
-  .tabs__content-img{
-    display: inline;
-    vertical-align: bottom;
-    width: 470px;
-   }
   }
-   @media screen and (max-width:1530px){
-    .tabs{
-      max-width: 992px;
-      margin: 0 auto;
-    }
-    .tabs__content-tab{
-      margin-top: 60px;
-    }
-    .tab{
-      padding: 10px 67px;
-    }
-    .tab__border-first{
-      padding: 10px 67px;
-    }
-    .tab__border-second{
-      padding: 10px 169px 10px 67px;
-    }
-    .tabs__content-in{
-      height: 386px;
-    }
-    .tabs__content-title-text{
-      font-size: 24px;
-      line-height: 33px;
-      height: 89px;
-      width: 482px;
-      margin-bottom: 38px;
-      margin-right: 26px;
-    }
-    .tabs__content-text-lorem{
-      font-size: 14px;
-      line-height: 16px;
-      width: 482px;
-      margin-left: 100px;
-      margin-bottom: 38px;
-    }
-    .tabs__button{
-      margin-bottom: 50px;
-      height: 58px;
-      width: 231px;
-      }
-      .tabs__content-img{
-        width: 370px;
-        height: 377px;
-       }
   .tabs__content-text-lorem{
     font-size: 13px;
     line-height: 15px;
@@ -271,4 +250,4 @@
     .tabs__content-img{
       display: none;
      }
-    }
+}
