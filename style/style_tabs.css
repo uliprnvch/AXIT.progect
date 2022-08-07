@@ -209,7 +209,7 @@
     vertical-align: bottom;
     width: 470px;
    }
-
+  }
    @media screen and (max-width:1530px){
     .tabs{
       max-width: 992px;
@@ -254,7 +254,6 @@
         width: 370px;
         height: 377px;
        }
-  }
   .tabs__content-text-lorem{
     font-size: 13px;
     line-height: 15px;
@@ -272,4 +271,4 @@
     .tabs__content-img{
       display: none;
      }
-}
+    }
