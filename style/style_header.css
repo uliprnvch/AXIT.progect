@@ -1,5 +1,3 @@
-
-
 .header{
   width: 100%;
   background: #000000;
@@ -35,12 +33,15 @@
   display: none;
 }
 
-@media screen and (max-width:1075px){
+@media screen and (max-width:1530px){
   .header__content{
     max-width: 1025px;
   }
   .header__img-logo{
     margin-right: 235px;
+  }
+  .header__text{
+    margin-right: auto;
   }
 }
 
@@ -52,12 +53,27 @@
     margin-left: 20px;
     margin-right: 111px;
   }
+}
+@media screen and (max-width:830px){
+  .header__text{
+    margin: 0;
+    height: 0;
+    width: 0;
+  }
   .header__text-link{
     display: none;
   }
+  .header__img-logo{
+    margin-left: 10px;
+    margin-right: 0;
+  }
+  .block__menu-img{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+  }
   .menu-img{
     display: inline-block;
-    visibility: visible;
-    margin: 19px 35px 19px 0;
+    margin-left: auto;
   }
 }

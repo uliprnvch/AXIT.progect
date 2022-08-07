@@ -1,117 +1,117 @@
 .stylish__block{
-    width: 100%;
-    background: url(../img/image-bg.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  
-  .stylish__back{
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
+  width: 100%;
+  background: url(../img/image-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
+.stylish__back{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.stylish__content-title{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  height: 150px;
+  padding: 50px 170px 0px 170px;
+}
+.stylish__separator{
+  width: 170px;
+  height: 0px;
+  border: 1px solid #FFFFFF;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+
+}
+.stylish__content-text{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 73px;
+  color: #FFFFFF;
+}
+.stylish__button{
+  justify-content: center;
+  display: flex;
+}
+.stylish__content-button{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  background: none;
+  border: 2px solid #FFFFFF;
+  cursor: pointer;
+  transition: all .3s;  
+  margin-bottom: 50px;
+  height: 58px;
+  width: 370px;
+}
+.stylish__content-button:hover{
+  color: #EC7979;
+  border: 2px solid #EC7979;
+}
+@media screen and (max-width:1045px){
+  .stylish__content{
+    width: 320px;
+    margin: 0 auto;
+  }
   .stylish__content-title{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 24px;
+    line-height: 28px;
+    height: 120px;
+    width: 288px;
+    padding: 0 16px;
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    height: 150px;
-    padding: 50px 170px 0px 170px;
   }
   .stylish__separator{
-    width: 170px;
-    height: 0px;
-    border: 1px solid #FFFFFF;
-    margin: 0 auto;
-    text-align: center;
-    display: flex;
+    width: 134px;
   
   }
   .stylish__content-text{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 14px;
+    line-height: 16px;
+    width: 288px;
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 73px;
-    color: #FFFFFF;
+    margin: 16px 16px 66px 16px
   }
-  .stylish__button{
-    justify-content: center;
-    display: flex;
+  .stylish__content-button{ 
+    margin-bottom: 58px;
+    height: 50px;
+    width: 288px;
   }
-  .stylish__content-button{
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 25px;
-    /* display: flex; */
-    align-items: center;
-    text-align: center;
-    text-transform: capitalize;
-    color: #FFFFFF;
-    background: none;
-    border: 2px solid #FFFFFF;
-    cursor: pointer;
-    transition: all .3s;  
-    margin-bottom: 50px;
-    height: 58px;
-    width: 370px;
-  }
-  .stylish__content-button:hover{
-    color: #EC7979;
-    border: 2px solid #EC7979;
-  }
-  @media screen and (max-width:1045px){
-    .stylish__content{
-      width: 320px;
-      margin: 0 auto;
-    }
-    .stylish__content-title{
-      font-size: 24px;
-      line-height: 28px;
-      height: 120px;
-      width: 288px;
-      padding: 0 16px;
-      display: flex;
-      align-items: center;
-      text-align: center;
-    }
-    .stylish__separator{
-      width: 134px;
-    
-    }
-    .stylish__content-text{
-      font-size: 14px;
-      line-height: 16px;
-      width: 288px;
-      display: flex;
-      align-items: center;
-      text-align: center;
-      margin: 16px 16px 66px 16px
-    }
-    .stylish__content-button{ 
-      margin-bottom: 58px;
-      height: 50px;
-      width: 288px;
-    }
 
-  }
+}
