@@ -100,7 +100,7 @@
         width: 318px;
     }
     .awesome__section-block-img{
-        margin-bottom: 33px;
+        margin-bottom: 0px;
     }
     .awesome__section-block-text-title{
         font-size: 18px;
@@ -142,7 +142,7 @@
         width: 318px;
     }
     .awesome__section-block-img{
-        margin-bottom: 33px;
+        margin-bottom: -20px;
     }
     .awesome__section-block-text-title{
         font-size: 18px;
